@@ -6,7 +6,7 @@ import tests.BaseTest;
 
 public class Division extends BaseTest {
     private String ERROR_MESSAGE = "Invalid result of subtraction";
-    //  private String ERROR_DIVISION_BY_ZEDO = "Division by zero is prohibited";
+    //  private String ERROR_DIVISION_BY_ZERO = "Division by zero is prohibited";
 
     @Test
     public void checkCorrectDivision() {

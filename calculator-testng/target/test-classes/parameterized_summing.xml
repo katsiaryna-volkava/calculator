@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing correct summing">
+
+    <test name="Both are positive">
+
+        <parameter name="firstInput" value="2"></parameter>
+        <parameter name="secondInput" value="11"></parameter>
+        <parameter name="expectedResult" value="13"></parameter>
+
+        <classes>
+            <class name="tests.basic.Summing"></class>
+        </classes>
+    </test>
+
+    <test name="Both are negative">
+
+        <parameter name="firstInput" value="-13"></parameter>
+        <parameter name="secondInput" value="-25"></parameter>
+        <parameter name="expectedResult" value="-38"></parameter>
+
+        <classes>
+            <class name="tests.basic.Summing"></class>
+        </classes>
+    </test>
+
+    <test name="First is positive, second is negative">
+
+        <parameter name="firstInput" value="4"></parameter>
+        <parameter name="secondInput" value="-7"></parameter>
+        <parameter name="expectedResult" value="-3"></parameter>
+
+        <classes>
+            <class name="tests.basic.Summing"></class>
+        </classes>
+    </test>
+
+    <test name="First is negative, second is positive">
+
+        <parameter name="firstInput" value="-5"></parameter>
+        <parameter name="secondInput" value="5"></parameter>
+        <parameter name="expectedResult" value="0"></parameter>
+
+        <classes>
+            <class name="tests.basic.Summing"></class>
+        </classes>
+    </test>
+
+
+</suite>
