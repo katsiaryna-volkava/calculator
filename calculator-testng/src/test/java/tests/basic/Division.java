@@ -10,7 +10,7 @@ public class Division extends BaseTest {
 
     @Test
     public void checkCorrectDivision() {
-        long result = calculator.div(6, 3);
+        var result = calculator.div(6, 3);
         Assert.assertEquals(result, 2, ERROR_MESSAGE);
     }
 }

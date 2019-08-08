@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All existing tests suite">
+    <test name="All the tests">
+        <packages>
+            <package name="tests.basic"/>
+            <package name="tests.angle"></package>
+            <package name="tests.exponentation"></package>
+        </packages>
+        <classes>
+            <class name="tests.positiveness.NumberNegativeness"></class>
+            <class name="tests.positiveness.NumberPositiveness"></class>
+        </classes>
+    </test>
+</suite>

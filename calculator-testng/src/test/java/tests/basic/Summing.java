@@ -9,7 +9,7 @@ public class Summing extends BaseTest {
 
     @Test
     public void checkCorrectSumming() {
-        long result = calculator.sum(1, 2);
-        Assert.assertEquals(result, 3, ERROR_MESSAGE);
+        var result = calculator.sum(2.4, 4.5);
+        Assert.assertEquals(result, 6.9, ERROR_MESSAGE);
     }
 }

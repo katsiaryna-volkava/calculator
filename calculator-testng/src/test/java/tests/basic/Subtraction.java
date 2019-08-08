@@ -9,7 +9,7 @@ public class Subtraction extends BaseTest {
 
     @Test
     public void checkCorrectSubtraction() {
-        long result = calculator.sub(100, 35);
+        var result = calculator.sub(100, 35);
         Assert.assertEquals(result, 65, ERROR_MESSAGE);
     }
 }
