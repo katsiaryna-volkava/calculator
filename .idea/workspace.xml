@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9006727e-9e48-4089-accb-018f55befdc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/calculator-testng/src/test/resources/parameterized_tests/parameterized_summing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Subtraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Summing.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Summing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/resources/suite_all_tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/resources/suites/suite_all_tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/resources/suite_basic_operations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/resources/suites/suite_basic_operations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator-testng/target/test-classes/parameterized_summing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator-testng/target/test-classes/suite_all_tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator-testng/target/test-classes/suite_basic_operations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator-testng/target/test-classes/tests/basic/Subtraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/target/test-classes/tests/basic/Subtraction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator-testng/target/test-classes/tests/basic/Summing.class" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/target/test-classes/tests/basic/Summing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,20 +32,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Summing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="289">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/DataProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -51,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/parameterized_tests/parameterized_summing.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            <state>
+              <caret selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -60,8 +53,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Subtraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="204">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,10 +77,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Multiplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,22 +101,9 @@
         <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../calculator-1.0.jar!/com/epam/tat/module4/Calculator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-              <folding>
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/suites/suite_basic_operations.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -119,19 +122,7 @@
         <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/suites/suite_all_tests.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="17" lean-forward="true" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/positiveness/NumberPositiveness.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -151,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/calculator-testng/pom.xml" />
         <option value="$PROJECT_DIR$/calculator-junit/pom.xml" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/BaseTest.java" />
@@ -168,17 +158,22 @@
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Multiplication.java" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/resources/parameterized_summing.xml" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/resources/parameterized_tests/subtraction_with_data_provider.xml" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Summing.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Data.java" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/DataProvider.java" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/data/DataProvider.java" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Subtraction.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-1088" />
-    <option name="width" value="992" />
-    <option name="height" value="536" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="2420" />
+    <option name="height" value="1370" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -235,15 +230,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="calculator2" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator-testng" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -288,20 +274,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/suite_basic_operations.xml">
+  <component name="RunManager" selected="TestNG.Subtraction">
     <configuration name="C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/parameterized_summing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="calculator-testng" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/calculator-testng/src/test/resources/parameterized_summing.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/suite_all_tests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="calculator-testng" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/calculator-testng/src/test/resources/suite_all_tests.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -323,7 +299,7 @@
       <module name="calculator-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.basic.*" />
+          <option name="PATTERN" value="data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,17 +313,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Summing.checkCorrectSumming" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Subtraction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="calculator-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.basic.*" />
+          <option name="PATTERN" value="data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.basic" />
-      <option name="MAIN_CLASS_NAME" value="tests.basic.Summing" />
-      <option name="METHOD_NAME" value="checkCorrectSumming" />
+      <option name="MAIN_CLASS_NAME" value="tests.basic.Subtraction" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subtraction.checkCorrectSubtraction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="calculator-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.basic" />
+      <option name="MAIN_CLASS_NAME" value="tests.basic.Subtraction" />
+      <option name="METHOD_NAME" value="checkCorrectSubtraction" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -357,11 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Subtraction" />
+        <item itemvalue="TestNG.Subtraction.checkCorrectSubtraction" />
         <item itemvalue="TestNG.C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/suite_basic_operations.xml" />
         <item itemvalue="TestNG.C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/parameterized_summing.xml" />
         <item itemvalue="TestNG.Multiplication.checkCorrectMultiplication" />
-        <item itemvalue="TestNG.Summing.checkCorrectSumming" />
-        <item itemvalue="TestNG.C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/suite_all_tests.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -379,39 +372,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Summing_checkCorrectSumming - 2019.08.08 at 18h 39m 48s.xml">
-      <configuration name="Summing.checkCorrectSumming" configurationId="TestNG" />
+    <history-entry file="Subtraction - 2019.08.09 at 20h 28m 48s.xml">
+      <configuration name="Subtraction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Multiplication_checkCorrectMultiplication - 2019.08.08 at 18h 42m 34s.xml">
-      <configuration name="Multiplication.checkCorrectMultiplication" configurationId="TestNG" />
+    <history-entry file="Subtraction_checkCorrectSubtraction - 2019.08.10 at 18h 46m 23s.xml">
+      <configuration name="Subtraction.checkCorrectSubtraction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Multiplication_checkCorrectMultiplication - 2019.08.08 at 18h 42m 51s.xml">
-      <configuration name="Multiplication.checkCorrectMultiplication" configurationId="TestNG" />
+    <history-entry file="Subtraction - 2019.08.10 at 18h 56m 09s.xml">
+      <configuration name="Subtraction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Multiplication_checkCorrectMultiplication - 2019.08.08 at 18h 43m 10s.xml">
-      <configuration name="Multiplication.checkCorrectMultiplication" configurationId="TestNG" />
+    <history-entry file="Subtraction - 2019.08.10 at 18h 56m 48s.xml">
+      <configuration name="Subtraction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Multiplication_checkCorrectMultiplication - 2019.08.08 at 18h 43m 29s.xml">
-      <configuration name="Multiplication.checkCorrectMultiplication" configurationId="TestNG" />
+    <history-entry file="Subtraction_checkCorrectSubtraction - 2019.08.10 at 18h 57m 53s.xml">
+      <configuration name="Subtraction.checkCorrectSubtraction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Katsiaryna_Volkava_Documents_LEARNING_mentoring_ATM_unit_testing_calculator2_calculator-testng_src_test_resources_parameterized_summing_xml - 2019.08.08 at 19h 01m 34s.xml">
-      <configuration name="C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/parameterized_summing.xml" configurationId="TestNG" />
+    <history-entry file="Subtraction - 2019.08.10 at 18h 58m 27s.xml">
+      <configuration name="Subtraction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Katsiaryna_Volkava_Documents_LEARNING_mentoring_ATM_unit_testing_calculator2_calculator-testng_src_test_resources_parameterized_summing_xml - 2019.08.08 at 19h 03m 33s.xml">
-      <configuration name="C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/parameterized_summing.xml" configurationId="TestNG" />
+    <history-entry file="Subtraction_checkCorrectSubtraction - 2019.08.10 at 18h 59m 44s.xml">
+      <configuration name="Subtraction.checkCorrectSubtraction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Katsiaryna_Volkava_Documents_LEARNING_mentoring_ATM_unit_testing_calculator2_calculator-testng_src_test_resources_parameterized_summing_xml - 2019.08.08 at 19h 05m 15s.xml">
-      <configuration name="C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/parameterized_summing.xml" configurationId="TestNG" />
+    <history-entry file="Subtraction - 2019.08.10 at 19h 25m 54s.xml">
+      <configuration name="Subtraction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Katsiaryna_Volkava_Documents_LEARNING_mentoring_ATM_unit_testing_calculator2_calculator-testng_src_test_resources_parameterized_summing_xml - 2019.08.08 at 19h 06m 44s.xml">
-      <configuration name="C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/parameterized_summing.xml" configurationId="TestNG" />
+    <history-entry file="Subtraction - 2019.08.10 at 19h 26m 34s.xml">
+      <configuration name="Subtraction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Katsiaryna_Volkava_Documents_LEARNING_mentoring_ATM_unit_testing_calculator2_calculator-testng_src_test_resources_suite_basic_operations_xml - 2019.08.08 at 19h 09m 36s.xml">
-      <configuration name="C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/suite_basic_operations.xml" configurationId="TestNG" />
+    <history-entry file="Subtraction - 2019.08.10 at 19h 27m 46s.xml">
+      <configuration name="Subtraction" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -419,15 +412,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31434315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" weight="0.42998585" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" weight="0.3281471" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,6 +434,34 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.31434315" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.42998585" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3281471" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calculator-testng/pom.xml">
@@ -526,13 +547,6 @@
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -574,54 +588,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Multiplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/parameterized_tests/parameterized_summing.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/suites/suite_all_tests.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" lean-forward="true" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/suites/suite_basic_operations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/data_providers/DataProvider.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Summing.java">
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/parameterized_tests/parameterized_summing.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/parameterized_tests/subtraction_with_data_provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/suites/suite_basic_operations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -630,18 +669,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Subtraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="204">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Summing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/DataProvider.java">
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Multiplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -700,6 +754,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

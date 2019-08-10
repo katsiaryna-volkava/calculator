@@ -12,6 +12,13 @@
         <module>calculator-testng</module>
         <module>calculator-junit</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.decimal4j</groupId>
+            <artifactId>decimal4j</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

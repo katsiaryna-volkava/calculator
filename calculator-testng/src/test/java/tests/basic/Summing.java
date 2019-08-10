@@ -10,9 +10,9 @@ public class Summing extends BaseTest {
     private String ERROR_MESSAGE = "Invalid result of summing";
 
     @Test
-        @Parameters({"firstInput", "secondInput", "expectedResult"})
+    @Parameters({"firstInput", "secondInput", "expectedResult"})
     public void checkCorrectSumming(long firstInput, long secondInput, long expectedResult) {
         long result = calculator.sum(firstInput, secondInput);
-        Assert.assertEquals(result, expectedResult,ERROR_MESSAGE);
+        Assert.assertEquals(result, expectedResult, ERROR_MESSAGE);
     }
 }
