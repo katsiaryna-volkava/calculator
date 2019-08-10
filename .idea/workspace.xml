@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9006727e-9e48-4089-accb-018f55befdc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForAngleOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForPositivenessAndNegativeness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForPowerOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForBasicOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cosine.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cosine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cotangent.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cotangent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Sinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Sinus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Tangent.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Tangent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Multiplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Subtraction.java" afterDir="false" />
@@ -26,10 +32,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Summing.java">
+        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForPositivenessAndNegativeness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForAngleOperations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Sinus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,78 +62,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/parameterized_tests/parameterized_summing.xml">
+        <entry file="jar://$PROJECT_DIR$/../calculator-1.0.jar!/com/epam/tat/module4/Calculator.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Subtraction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="163">
+              <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1360#1361#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/BaseTest.java">
+        <entry file="jar://C:/Windows/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Math.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="119">
+              <caret line="153" column="28" lean-forward="true" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Multiplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="88" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#6904#6905#0" expanded="true" />
+                <element signature="e#6985#6986#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java">
+        <entry file="jar://C:/Windows/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/StrictMath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="150">
+              <caret line="124" column="34" lean-forward="true" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cosine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,19 +109,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/suites/suite_basic_operations.xml">
+        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/suites/suite_all_tests.xml">
+        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cotangent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Tangent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,10 +165,6 @@
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/exponentation/RootExtraction.java" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/positiveness/NumberNegativeness.java" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/positiveness/NumberPositiveness.java" />
-        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cosine.java" />
-        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cotangent.java" />
-        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Sinus.java" />
-        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Tangent.java" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/resources/suite_all_tests.xml" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/resources/parameterized_summing.xml" />
@@ -174,6 +179,15 @@
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Multiplication.java" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java" />
         <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/Runner.java" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForBasicOperations.java" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForPositivenessAndNegativeness.java" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForBasicOperations.java" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Sinus.java" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cosine.java" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cotangent.java" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Tangent.java" />
+        <option value="$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForAngleOperations.java" />
       </list>
     </option>
   </component>
@@ -238,7 +252,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="operations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
@@ -248,6 +262,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator2" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-testng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="angle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
@@ -258,6 +282,31 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator2" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-testng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="exponentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="calculator-1.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="calculator-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="module4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,13 +340,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Division">
-    <configuration name="C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/suite_basic_operations.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Sinus">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.Runner" />
       <module name="calculator-testng" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/calculator-testng/src/test/resources/suite_basic_operations.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -336,16 +388,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subtraction" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sinus" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="calculator-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="tests.angle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.basic" />
-      <option name="MAIN_CLASS_NAME" value="tests.basic.Subtraction" />
+      <option name="PACKAGE_NAME" value="tests.angle" />
+      <option name="MAIN_CLASS_NAME" value="tests.angle.Sinus" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -353,17 +405,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subtraction.checkCorrectSubtraction" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sinus.checkSinus" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="calculator-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="tests.angle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.basic" />
-      <option name="MAIN_CLASS_NAME" value="tests.basic.Subtraction" />
-      <option name="METHOD_NAME" value="checkCorrectSubtraction" />
+      <option name="PACKAGE_NAME" value="tests.angle" />
+      <option name="MAIN_CLASS_NAME" value="tests.angle.Sinus" />
+      <option name="METHOD_NAME" value="checkSinus" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -373,11 +425,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Sinus" />
+        <item itemvalue="TestNG.Sinus.checkSinus" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="TestNG.Division" />
         <item itemvalue="TestNG.Multiplication" />
-        <item itemvalue="TestNG.Subtraction" />
-        <item itemvalue="TestNG.Subtraction.checkCorrectSubtraction" />
-        <item itemvalue="TestNG.C:/Users/Katsiaryna_Volkava/Documents/LEARNING/mentoring/ATM/unit_testing/calculator2/calculator-testng/src/test/resources/suite_basic_operations.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -395,15 +447,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Subtraction - 2019.08.10 at 18h 56m 09s.xml">
-      <configuration name="Subtraction" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Subtraction - 2019.08.10 at 18h 56m 48s.xml">
-      <configuration name="Subtraction" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Subtraction_checkCorrectSubtraction - 2019.08.10 at 18h 57m 53s.xml">
-      <configuration name="Subtraction.checkCorrectSubtraction" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Subtraction - 2019.08.10 at 18h 58m 27s.xml">
       <configuration name="Subtraction" configurationId="TestNG" />
     </history-entry>
@@ -424,6 +467,15 @@
     </history-entry>
     <history-entry file="Multiplication - 2019.08.10 at 20h 04m 21s.xml">
       <configuration name="Multiplication" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Division - 2019.08.10 at 20h 14m 49s.xml">
+      <configuration name="Division" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Sinus_checkSinus - 2019.08.10 at 22h 19m 45s.xml">
+      <configuration name="Sinus.checkSinus" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Sinus - 2019.08.10 at 22h 21m 27s.xml">
+      <configuration name="Sinus" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -463,15 +515,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.31434315" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.31434315" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.42998585" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.42998585" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.3281471" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -504,16 +556,6 @@
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/exponentation.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/exponentation/Exponentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/exponentation/RootExtraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -526,46 +568,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cosine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cotangent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Sinus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Tangent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -590,17 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../calculator-1.0.jar!/com/epam/tat/module4/Calculator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding>
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/suites/suite_all_tests.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -611,7 +602,7 @@
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/resources/data_providers/DataProvider.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java">
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForBasicOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
@@ -646,29 +637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java">
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForBasicOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,18 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Subtraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/DataForTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -704,8 +666,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Multiplication.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="88" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/exponentation/Exponentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForPowerOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForPositivenessAndNegativeness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cotangent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Tangent.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="88" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="88" />
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForBasicOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/data/operations/DataForAngleOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Sinus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/angle/Cosine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -714,11 +783,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator-testng/src/test/java/tests/basic/Division.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../calculator-1.0.jar!/com/epam/tat/module4/Calculator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+          <folding>
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Windows/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="153" column="28" lean-forward="true" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="29" />
+          <folding>
+            <element signature="e#6904#6905#0" expanded="true" />
+            <element signature="e#6985#6986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Windows/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="124" column="34" lean-forward="true" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
         </state>
       </provider>
     </entry>

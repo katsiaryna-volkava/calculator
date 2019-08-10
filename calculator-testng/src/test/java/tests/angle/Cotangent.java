@@ -1,14 +1,15 @@
 package tests.angle;
 
+import data.operations.DataForAngleOperations;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.BaseTest;
 
 public class Cotangent extends BaseTest {
-    @Test
-    public void checkCotangent() {
-        double result = calculator.ctg(1);
-        Assert.assertEquals(result, 1);
-    }
 
+    @Test(dataProvider = "valuesForCotangentTest", dataProviderClass = DataForAngleOperations.class)
+    public void checkCotangent(double angleValue, double expectedResult) {
+        double actualResult = calculator.ctg(angleValue);
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }

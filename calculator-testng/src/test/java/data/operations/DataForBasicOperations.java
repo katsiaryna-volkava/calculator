@@ -1,8 +1,8 @@
-package data;
-import com.epam.tat.module4.Calculator;
+package data.operations;
+
 import org.testng.annotations.DataProvider;
 
-public class DataForTests {
+public class DataForBasicOperations {
 
     @DataProvider(name = "valuesForSubtractionTest")
     public Object[][] valuesForSubtractionTest() {
@@ -47,7 +47,6 @@ public class DataForTests {
                 {14, 0, 23}
         };
     }
-
 
 
 }

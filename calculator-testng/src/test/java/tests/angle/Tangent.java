@@ -1,13 +1,15 @@
 package tests.angle;
 
+import data.operations.DataForAngleOperations;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.BaseTest;
 
 public class Tangent extends BaseTest {
-    @Test
-    public void checkTangent() {
-        double result = calculator.tg(45);
-        Assert.assertEquals(result, (double) 1);
+
+    @Test(dataProvider = "valuesForTangentTest", dataProviderClass = DataForAngleOperations.class)
+    public void checkTangent(double angleValue, double expectedResult) {
+        double actualResult = calculator.tg(angleValue);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 }
