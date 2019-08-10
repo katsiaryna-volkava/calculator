@@ -1,6 +1,7 @@
 package tests;
 
 import com.epam.tat.module4.Calculator;
+import org.decimal4j.util.DoubleRounder;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -16,4 +17,10 @@ public class BaseTest {
     public void tearDown(){
         calculator = null;
     }
+
+    public double roundDoubleValue(double valueToRound) {
+        return DoubleRounder.round(valueToRound, 2);
+    }
+
+
 }

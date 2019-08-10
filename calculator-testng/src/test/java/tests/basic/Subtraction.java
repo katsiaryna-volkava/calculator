@@ -14,8 +14,4 @@ public class Subtraction extends BaseTest {
         double result = calculator.sub(firstInput, secondInput);
         Assert.assertEquals(roundDoubleValue(result), roundDoubleValue(expectedResult), ERROR_MESSAGE);
     }
-
-    public double roundDoubleValue(double valueToRound) {
-        return DoubleRounder.round(valueToRound, 2);
-    }
 }
