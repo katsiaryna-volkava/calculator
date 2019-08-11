@@ -11,8 +11,9 @@ public class Summing extends BaseTest {
 
     @Test
     @Parameters({"firstInput", "secondInput", "expectedResult"})
-    public void checkCorrectSumming(long firstInput, long secondInput, long expectedResult) {
-        long result = calculator.sum(firstInput, secondInput);
-        Assert.assertEquals(result, expectedResult, ERROR_MESSAGE);
+    public void checkCorrectSumming(double firstInput, double secondInput, double expectedResult) {
+        double result = calculator.sum(firstInput, secondInput);
+        double roundedResult = roundToFourDigitsAfterPoint(result);
+        Assert.assertEquals(roundedResult, expectedResult, ERROR_MESSAGE);
     }
 }

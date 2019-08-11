@@ -11,6 +11,7 @@ public class Multiplication extends BaseTest {
     @Test(dataProvider = "valuesForMultiplicationTest", dataProviderClass = DataForBasicOperations.class)
     public void checkCorrectMultiplication(double firstInput, double secondInput, double expectedResult) {
         double result = calculator.mult(firstInput, secondInput);
-        Assert.assertEquals(roundDoubleValue(result), roundDoubleValue(expectedResult));
+        double roundedResult = roundToFourDigitsAfterPoint(result);
+        Assert.assertEquals(roundedResult, expectedResult);
     }
 }

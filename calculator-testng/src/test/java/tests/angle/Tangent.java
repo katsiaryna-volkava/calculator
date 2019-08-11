@@ -10,6 +10,7 @@ public class Tangent extends BaseTest {
     @Test(dataProvider = "valuesForTangentTest", dataProviderClass = DataForAngleOperations.class)
     public void checkTangent(double angleValue, double expectedResult) {
         double actualResult = calculator.tg(angleValue);
-        Assert.assertEquals(actualResult, expectedResult);
+        double roundedActualResult = roundToFourDigitsAfterPoint(actualResult);
+        Assert.assertEquals(roundedActualResult, expectedResult);
     }
 }

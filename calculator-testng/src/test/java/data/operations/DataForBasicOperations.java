@@ -21,10 +21,10 @@ public class DataForBasicOperations {
     @DataProvider(name = "valuesForMultiplicationTest")
     public Object[][] valuesForMultiplicationTest() {
         return new Object[][]{
-                {15, 7, 105},
-                {-10, -7, 70},
-                {-10, 15, -150},
-                {10, -6, -60},
+              //  {15, 7, 105},
+              //  {-10, -7, 70},
+              //  {-10, 15, -150},
+             //   {10, -6, -60},
                 {2.2, 12, 26.4},
                 {-4.56, -5.23, -9.79},
                 {-14.78, 10, -147.8},

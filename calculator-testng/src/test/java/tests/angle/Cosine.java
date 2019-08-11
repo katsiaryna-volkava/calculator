@@ -9,6 +9,7 @@ public class Cosine extends BaseTest {
     @Test(dataProvider = "valuesForCosineTest", dataProviderClass = DataForAngleOperations.class)
     public void checkCosine(double angleValue, double expectedResult) {
         double actualResult = calculator.cos(angleValue);
-        Assert.assertEquals(actualResult, expectedResult);
+        double roundedActualResult = roundToFourDigitsAfterPoint(actualResult);
+        Assert.assertEquals(roundedActualResult, expectedResult);
     }
 }

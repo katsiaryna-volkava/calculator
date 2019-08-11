@@ -11,6 +11,7 @@ public class Subtraction extends BaseTest {
     @Test(dataProvider = "valuesForSubtractionTest", dataProviderClass = DataForBasicOperations.class)
     public void checkCorrectSubtraction(double firstInput, double secondInput, double expectedResult) {
         double result = calculator.sub(firstInput, secondInput);
-        Assert.assertEquals(roundDoubleValue(result), roundDoubleValue(expectedResult), ERROR_MESSAGE);
+        double roundedResult = roundToFourDigitsAfterPoint(result);
+        Assert.assertEquals(roundedResult,expectedResult, ERROR_MESSAGE);
     }
 }

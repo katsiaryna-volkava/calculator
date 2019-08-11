@@ -12,6 +12,7 @@ public class Division extends BaseTest {
     @Test (dataProvider = "valuesForDivisionTest", dataProviderClass = DataForBasicOperations.class)
     public void checkCorrectDivision(double firstInput, double secondInput, double expectedResult) {
         double result = calculator.div(firstInput, secondInput);
-        Assert.assertEquals(roundDoubleValue(result), roundDoubleValue(expectedResult));
+        double roundedResult = roundToFourDigitsAfterPoint(result);
+        Assert.assertEquals(roundedResult, expectedResult);
     }
 }
