@@ -47,13 +47,13 @@ public class DataForAngleOperations {
     @DataProvider
     public Object[][] valuesForCotangentTest() {
         return new Object[][] {
-                {0},
-                {10},
-                {45},
-                {60},
-                {90},
-                {180},
-                {360}
+                {0, 0},
+                {10, 0.1763},
+                {45, 1},
+                {60, 1.732},
+                {90, 1},
+                {180, 0},
+                {360, 0}
         };
     }
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Showing parallelism" parallel="classes" thread-count="4" verbose="4">
+    <test name="summing">
+        <classes>
+            <class name="tests.basic.Summing"></class>
+        </classes>
+    </test>
+    <test name="subtraction">
+        <classes>
+            <class name="tests.basic.Subtraction"></class>
+        </classes>
+    </test>
+    <test name="multiplication">
+        <classes>
+            <class name="tests.basic.Multiplication"></class>
+        </classes>
+    </test>
+    <test name="division">
+        <classes>
+            <class name="tests.basic.Division"></class>
+        </classes>
+    </test>
+
+    <test name="root extraction">
+        <classes>
+            <class name="tests.exponentation.RootExtraction"></class>
+        </classes>
+    </test>
+
+    <test name="powering">
+        <classes>
+            <class name="tests.exponentation.Exponentation"></class>
+        </classes>
+    </test>
+</suite>

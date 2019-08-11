@@ -1,14 +1,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="All existing tests suite">
-    <test name="All the tests">
+    <suite-files>
+        <suite-file path="power_root_positiveness_suite.xml"></suite-file>
+        <suite-file path="parameterized_summing.xml"></suite-file>
+    </suite-files>
+    <test name="Checking all the rest math operation">
+
         <packages>
-            <package name="tests.basic"/>
             <package name="tests.angle"></package>
-            <package name="tests.exponentation"></package>
         </packages>
         <classes>
-            <class name="tests.positiveness.NumberNegativeness"></class>
-            <class name="tests.positiveness.NumberPositiveness"></class>
+            <class name="tests.basic.Division"></class>
+            <class name="tests.basic.Multiplication"></class>
+            <class name="tests.basic.Subtraction"></class>
         </classes>
+
     </test>
 </suite>
