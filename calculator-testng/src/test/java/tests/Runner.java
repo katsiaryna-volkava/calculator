@@ -26,7 +26,8 @@ public class Runner {
         System.out.println(calculator.isNegative(0));
         System.out.println(calculator.isNegative(5));
 
-        System.out.println();
+        System.out.println(Math.tanh(30));
+        System.out.println(calculator.tg(30));
 
     }
 }

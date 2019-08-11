@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Testing correct summing">
+<suite name="Testing basic operations: summing, subtracting, multiplication, division">
 
-    <test name="Both are positive">
+    <test name="Summing. Both are positive">
 
         <parameter name="firstInput" value="2"></parameter>
         <parameter name="secondInput" value="11"></parameter>
@@ -12,7 +12,7 @@
         </classes>
     </test>
 
-    <test name="Both are negative">
+    <test name="Summing. Both are negative">
 
         <parameter name="firstInput" value="-13"></parameter>
         <parameter name="secondInput" value="-25"></parameter>
@@ -23,7 +23,7 @@
         </classes>
     </test>
 
-    <test name="First is positive, second is negative">
+    <test name="Summing. First is positive, second is negative">
 
         <parameter name="firstInput" value="4"></parameter>
         <parameter name="secondInput" value="-7"></parameter>
@@ -34,7 +34,7 @@
         </classes>
     </test>
 
-    <test name="First is negative, second is positive">
+    <test name="Summing. First is negative, second is positive">
 
         <parameter name="firstInput" value="-5"></parameter>
         <parameter name="secondInput" value="5"></parameter>

@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Basic operations suite">
-    <test name="Basic operations: summing, subtraction, division, multiplication">
-        <packages>
-            <package name="tests.basic"/>
-        </packages>
-    </test>
-</suite>

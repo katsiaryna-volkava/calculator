@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite for checking positiveness, negativeness, power and root extraction">
+    <test name="Checking positiveness">
+        <packages>
+            <package name="tests.positiveness"></package>
+        </packages>
+    </test>
+
+    <test name="Checking exponentation">
+        <classes>
+            <class name="tests.exponentation.Exponentation"></class>
+        </classes>
+    </test>
+
+
+    <test name="Checking root extraction">
+        <classes>
+            <class name="tests.exponentation.RootExtraction"></class>
+        </classes>
+    </test>
+</suite>
